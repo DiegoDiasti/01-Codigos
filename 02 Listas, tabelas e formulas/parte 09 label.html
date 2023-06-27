@@ -1,0 +1,75 @@
+<!-- Instrução para o navegador web que diz em qual versão está nesse caso HTML5 -->
+<!DOCTYPE html> <!-- Parte 09 label -->
+
+<html> 
+    <!-- Cabeçalho -->
+    <head>
+        <!-- Comunica aos navegadores qual é o formato de codificação de caracteres utilizado naquele documento. -->
+        <meta charset="UTF-8" />
+         <!-- nome no cabeçalho acima do endereço de URL -->
+        <title> label </title>
+        <!-- Fonte externa localizada no site https://fonts.google.com/ -->
+        <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Kablammo&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+        <!-- Link para buscar informações do CSS externas -->
+        <link rel="stylesheet" href="parte 09 label.css" />
+    </head>
+    
+    
+    <!-- Local de todas informação da tela -->
+    <body>
+        
+        <!-- A tag <label> é usada para criar rótulos descritivos para elementos de formulário em HTML. -->
+        <h1> LABEL modelo 01</h1>
+
+        <!-- "form" cria formulário, "action" para onde as informações serão direcionadas, "method" se a informação vai aparecer ou não no final da URL-->
+        <form action="parte 05 formularios bd.html" method="GET">
+
+            <!-- a tag <label for="nome"> melhora a usabilidade e a acessibilidade do formulário. -->
+           <label for="nome"> Nome Completo </label> <br/>
+           <!-- O campo de entrada "Nome" é criado com a tag <input> 
+            e os atributos "name" e "id" são definidos para identificação e associação com o rótulo. -->
+           <input type="text" name="nome" id="nome"/>
+
+           <br/> <br/>
+            <!-- Marcar e desmarcar --> <br/>
+           <input type="checkbox" id="teste"/>
+           <label for="teste"> Eu declaro que li e aceito os termos de uso. </label>
+            
+             <!-- cria um botão clicavel -->
+            <button> Fazer Cadastro </button>
+           
+
+        </form>
+
+        <h1> LABEL modelo 02</h1>
+
+        <!-- "form" cria formulário, "action" para onde as informações serão direcionadas, "method" se a informação vai aparecer ou não no final da URL-->
+        <form action="parte 05 formularios bd.html" method="GET">
+
+            <!-- a tag <label for="nome"> melhora a usabilidade e a acessibilidade do formulário. -->
+        <label>
+            Nome Completo  <br/>
+           <!-- O campo de entrada "Nome" é criado com a tag <input> 
+            e os atributos "name" e  definido para identificação e associação com o rótulo. -->
+           <input type="text" name="nome" />
+        </label>
+           
+        <br/> <br/>
+
+            <label>
+            <!-- Marcar e desmarcar --> <br/>
+            <input type="checkbox" />
+            Eu declaro que li e aceito os termos de uso. 
+            </label>
+            
+             <!-- cria um botão clicavel -->
+            <button> Fazer Cadastro </button>
+           
+
+        </form>
+    </body>
+
+</html>

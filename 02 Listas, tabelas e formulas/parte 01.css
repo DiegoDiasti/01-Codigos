@@ -1,0 +1,38 @@
+
+* {
+    /*indica que o tamanho será a soma do conteúdo com a borda e o padding. */
+    box-sizing: border-box;
+}
+
+body {
+    /*define a margem de todo conteudo na página*/
+    margin: 15px;
+    color: red;
+}
+
+h1 {
+    /* coloca o arquivo selecionado em caixa alta (letra maiuscula) */
+    text-transform:uppercase;
+}
+
+p {
+
+    color: blue;
+    /*tamanho da fonte*/
+    font-size: 23px;
+    /*utilizada para aplicar ou remover negrito de um elemento de texto */
+    font-weight: bold;
+    /* define o tipo de fonte de escrita (Obs: selecionar mais de uma,
+    sendo que ela e selecionada de forma hierarquica)*/
+    font-family: helvetica ,arial, Courier, monospace;
+    /*define o alinhamento do texto (esquerda,centro,direita)*/
+    text-align: left;
+    /*espaçamento entre uma letra e outra*/
+    letter-spacing: 0px;
+    /*espaçamento entre palavras*/
+    word-spacing: 0px;
+    /*altura da linha*/
+    line-height: auto;
+    /* faz o sombriamento no texto*/
+    text-shadow: 5px 10px 20px purple;
+}

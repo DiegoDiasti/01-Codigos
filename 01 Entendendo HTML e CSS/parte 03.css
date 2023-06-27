@@ -1,0 +1,22 @@
+* {
+
+    box-sizing: border-box ;
+}
+
+body {
+   
+    margin: 15px ;
+}
+
+/* da cor ao link */
+.link {
+
+    color: red ;
+    font-size: 30px ;
+}
+
+/* "hover" mudar cor do cursor ao passar o mouse */
+.link:hover {
+
+    color: #000 ;
+}

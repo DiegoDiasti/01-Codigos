@@ -1,0 +1,25 @@
+* {
+
+    box-sizing: border-box;
+}
+body {
+   
+    margin: 15px;
+}
+
+.exemplo {
+
+    border: 5px groove blue;
+    padding: 0px 0px 0px 0px;
+    margin: 1px ; 
+}
+
+h2 {
+
+    background-color: rgb(75, 0, 130);
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+   
+    margin: 20px;
+}

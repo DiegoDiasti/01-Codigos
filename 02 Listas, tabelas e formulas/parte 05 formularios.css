@@ -1,0 +1,25 @@
+* {
+    /*indica que o tamanho pixels será a soma do conteúdo com a borda e o padding*/
+    box-sizing: border-box;
+}
+
+body {
+    /*define a margem de todo conteudo na página*/
+    margin: 65px;
+     /*cor da fonte*/
+    color: yellow;
+    /*alterar a cor do plano de fundo*/
+    background-color: black;
+}
+
+h1 {
+    /*tamanho da fonte*/
+    font-size: 50px;
+    /*estilo da fonte*/
+    font-family: Creepster ;
+}
+
+h2 {
+
+    font-size: 30px;
+}

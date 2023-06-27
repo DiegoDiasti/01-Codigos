@@ -1,0 +1,58 @@
+<!-- Instrução para o navegador web que diz em qual versão está nesse caso HTML5 -->
+<!DOCTYPE html> <!-- Parte 05 formularios -->
+
+<html> 
+    <!-- Cabeçalho -->
+    <head>
+        <!-- Comunica aos navegadores qual é o formato de codificação de caracteres utilizado naquele documento. -->
+        <meta charset="UTF-8" />
+        <title> formulários </title>
+        <!-- Fonte externa localizada no site https://fonts.google.com/ -->
+        <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Kablammo&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+        
+        <!-- Link para buscar informações do CSS externas -->
+        <link rel="stylesheet" href="parte 05 formularios.css" />
+    </head>
+    <!-- Local de toda informação da tela -->
+    <body>
+        <h1> FORMULÁRIOS </h1>
+
+        <h2> Cadastro </h2>
+        <!-- "form" cria formulário, "action" para onde as informações serão direcionadas, "method" se a informação vai aparecer ou não no final da URL-->
+        <form action="C:\Users\user\Desktop\2023\18 XML\Programação\VsCode\Codigos\02 Listas, tabelas e formulas\parte 05 formularios bd.html" method="get">
+            <!-- utilizado para receber textos de qualquer tipo, tais como: nomes, telefones, emails etc -->
+            <!-- Texto --> Nome <br/>
+            <!-- name"usuario" e utilizado com "method" está em get,
+            dessa forma aparecera a descrição "usuario" mais o nome digitado -->
+            <input type="text" name="usuario"/> <br/><br/>
+
+            <!-- "value" adiciona como padrão fixo a informação "Vinicius"--> Sobrenome <br/>
+            <input type="text" name="sobrenome" value="Vinicius"/> <br/><br/>
+            
+            <!-- Senha --> Senha <br/>
+            <input type="password"/> <br/><br/>
+
+            <!-- Email --> Email <br/>
+            <input type="email"/> <br/><br/>
+
+            <!-- Selecionar uma opção --> <br/>
+            <input type="radio" name="sexo"/> Masculino <br/>
+            <input type="radio" name="sexo"/> Feminino <br/><br/>
+
+            <!-- Marcar e desmarcar --> <br/>
+            <input type="checkbox"/> Aceitar termos<br/><br/>
+            <!-- cria um botão clicavel -->
+            <input type="submit" value="Clique aqui"/> 
+
+        </form>
+
+        <h2> Login </h2>
+        <form>
+
+        </form>
+
+    </body>
+</html>

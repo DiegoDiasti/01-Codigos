@@ -1,0 +1,32 @@
+* {
+    /*indica que o tamanho será a soma do conteúdo com a borda e o padding. */
+    box-sizing: border-box;
+}
+
+body {
+    /*define a margem de todo conteudo na página*/
+    margin: 65px;
+    color: red;
+}
+
+h1 {
+
+    font-family: 'Kablammo';
+}
+ul {
+    /*tamanho da fonte*/
+    font-size: 23px;
+    /*selecionar fonte (esse fonte e externa, e por isso usa ' ' )*/
+    font-family: 'Chilanka';
+    color: blue;
+}
+
+ol {
+    /*tamanho da fonte*/
+    font-size: 23px;
+    /*selecionar fonte (esse fonte e externa, e por isso usa ' ' )*/
+    font-family: roboto;
+    color: green;
+    /*personaliza os indicadores da lista*/
+    
+}

@@ -1,0 +1,52 @@
+* {
+    /*indica que o tamanho pixels será a soma do conteúdo com a borda e o padding. */
+    box-sizing: border-box;
+}
+
+body {
+    /*define a margem de todo conteudo na página*/
+    margin: 65px;
+    color: darkblue;
+    background-color: black;
+}
+
+h1 {
+    
+    /*tamanho da fonte*/
+    font-size: 40px;
+    /*alinhamento do texto (esquerda,centro,direita)*/
+    text-align:center;
+
+    color: yellow;
+    /*alterar a cor do plano de fundo*/
+    background-color: purple ;
+    /*determina a largura da área de conteúdo*/
+    width: 800px;
+    /*determina a altura da área do conteúdo*/
+    height: 60px;
+    /*destina-se a definir bordas arredondadas*/
+    border-radius: 40px;
+    /*define tamanho, formato e cor da borda*/
+    border:10px groove greenyellow;
+}
+
+tr {
+
+    font-size: 50px;
+    background-color: purple;
+    border: 30px groove greenyellow;
+}
+
+th {
+
+    font-size: 30px;
+    color: yellow;
+    border: 10px groove greenyellow;
+}
+
+td {
+
+    font-size: 23px;
+    color: yellow;
+    border: 10px groove greenyellow;
+}

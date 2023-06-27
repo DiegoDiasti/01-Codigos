@@ -1,0 +1,62 @@
+<!-- Instrução para o navegador web que diz em qual versão está nesse caso HTML5 -->
+<!DOCTYPE html> <!-- Parte 07 select -->
+
+<html> 
+    <!-- Cabeçalho -->
+    <head>
+        <!-- Comunica aos navegadores qual é o formato de codificação de caracteres utilizado naquele documento. -->
+        <meta charset="UTF-8" />
+         <!-- nome no cabeçalho acima do endereço de URL -->
+        <title> select </title>
+        <!-- Fonte externa localizada no site https://fonts.google.com/ -->
+        <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Kablammo&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+        <!-- Link para buscar informações do CSS externas -->
+        <link rel="stylesheet" href="parte 07 select.css" />
+    </head>
+    
+    
+    <!-- Local de toda informação da tela -->
+    <body>
+        <h1> FUNÇÃO SELECT </h1>
+
+        <h2> Cadastro </h2>
+        <!-- "form" cria formulário, "action" para onde as informações serão direcionadas, "method" se a informação vai aparecer ou não no final da URL-->
+        <form action=" C:\Users\user\Desktop\2023\18 XML\Programação\VsCode\01 Codigos\02 Listas, tabelas e formulas\parte 05 formularios bd.html " method="GET">
+           
+            <h3>
+             <!-- menu de opções --> <!-- name=ordenação ; aparece na URL -->
+            <select name="ordenacao">
+                <!-- campo de opções do menu "select" -->
+                <option>  </option>
+                <!-- "value" cria valor especifico para determinado item -->
+                <option value="bestseller"> Mais Vendidos </option>
+                <option value="last" selected> Recentes </option>
+            </select>
+            </br></br>
+             <!-- "select": menu de opções --> <!-- name=ordenação ; aparece na URL -->
+             <!-- "size": quantas opções aparecem em simultaneo--> <!-- "multiple": indica multipla escolha na seleção -->
+             <select name="ordenacao" size="2" multiple>
+                <!-- campo de opções do menu "select" -->
+                <option>  </option>
+                <!-- "value" cria valor especifico para determinado item -->
+                <option value="bestseller"> Mais Vendidos </option>
+                <option value="last" selected> Recentes </option>
+            </select>
+            
+            <!-- cria um botão clicavel -->
+            <input type="submit" value="fazer cadastro"/> <br/><br/>
+            </h3>
+
+        </form>
+
+        <h2> Login </h2>
+        <form>
+
+        </form>
+
+    </body>
+
+</html>

@@ -1,0 +1,80 @@
+* {
+    /*indica que o tamanho pixels será a soma do conteúdo com a borda e o padding*/
+    box-sizing: border-box;
+}
+
+body {
+    /*define a margem de todo conteudo na página*/
+    margin: 65px;
+     /*cor da fonte*/
+    color: yellow;
+    /*alterar a cor do plano de fundo*/
+    background-color: black;
+}
+
+h1 {
+    /* define o tipo de fonte de escrita (Obs: selecionar mais de uma,
+    sendo que ela e selecionada de forma hierarquica)*/
+    font-family : Chilanka;
+    /*tamanho da fonte*/
+    font-size: 40px;
+    /*alinhamento do texto (esquerda,centro,direita)*/
+    text-align:center;
+    /*cor da fonte*/
+    color: yellow;
+    /*alterar a cor do plano de fundo*/
+    background-color: purple ;
+    /*determina a largura da área de conteúdo*/
+    width: 800px;
+    /*determina a altura da área do conteúdo*/
+    height: 60px;
+    /*destina-se a definir bordas arredondadas*/
+    border-radius: 40px;
+    /*define tamanho, formato e cor da borda*/
+    border:10px groove greenyellow;
+     /* faz o sombriamento no texto*/
+     text-shadow: 5px 0px 10px wheat;
+}
+
+table {
+    /*determina a largura da área de conteúdo*/
+    width: 800px;
+}
+
+table thead {
+    /*alterar a cor do plano de fundo*/
+    background-color:blue;
+}   
+
+table tbody {
+    /*alterar a cor do plano de fundo*/
+    background-color:green;
+}
+
+th, td {
+    /*define uma a distância entre o conteúdo de um elemento e suas bordas*/
+    padding: 10px;
+    /*alinhamento do texto (esquerda,centro,direita)*/
+    text-align: left;
+}
+
+/*possibilita um elemento ter o seu estilo alterado através da ação do usuário,
+quando o próprio passa o cursor do mouse sobre o elemento.*/
+tr:hover {
+    /*alterar a cor do plano de fundo*/
+    background-color:#000;
+    
+}
+
+thead th {
+     /*define tamanho, formato e cor da borda*/
+    border: 5px ridge lawngreen;
+}
+
+/*capaz de selecionar um elemento dentre uma lista de elementos utilizando sua posição numérica,
+uma fórmula matemática e até mesmo as palavras even (para valores pares) e odd (para ímpares)*/
+tbody tr:nth-child(even) {
+    /*alterar a cor do plano de fundo*/
+    background-color: darkgoldenrod;
+
+}

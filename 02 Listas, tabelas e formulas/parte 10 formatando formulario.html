@@ -1,0 +1,68 @@
+<!-- Instrução para o navegador web que diz em qual versão está nesse caso HTML5 -->
+<!DOCTYPE html> <!-- Parte 10 Formatando formulario -->
+
+<html> 
+    <!-- Cabeçalho -->
+    <head>
+        <!-- Comunica aos navegadores qual é o formato de codificação de caracteres utilizado naquele documento. -->
+        <meta charset="UTF-8" />
+         <!-- nome no cabeçalho acima do endereço de URL -->
+        <title> Formatando formulario </title>
+        <!-- Fonte externa localizada no site https://fonts.google.com/ -->
+        <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Kablammo&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+        <!-- Link para buscar informações do CSS externas -->
+        <link rel="stylesheet" href="parte 10 formatando formulario.css" />
+    </head>
+    
+    
+    <!-- Local de todas informação da tela -->
+    <body>
+        
+        <!-- A tag <label> é usada para criar rótulos descritivos para elementos de formulário em HTML. -->
+        <h1> Formatação via CSS </h1>
+
+        <!-- "form" cria formulário, "action" para onde as informações serão direcionadas, "method" se a informação vai aparecer ou não no final da URL-->
+        <form action="parte 05 formularios bd.html" method="GET">
+
+
+        <!-- a tag <label for="nome"> melhora a usabilidade e a acessibilidade do formulário. -->
+            <label>
+                Nome Completo  <br/>
+                <!-- O campo de entrada "Nome" é criado com a tag <input> 
+                e os atributos "name" e  definido para identificação e associação com o rótulo. -->
+                <input type="text" name="nome" />
+            </label>               
+
+            <label>
+                Descrição: <br/>
+                <textarea name="descricao"></textarea>
+            </label>
+
+            <label>
+                Categoria:  <br/>
+                <select name="categoria">
+                    <option value="1"> Categoria 01</option>
+                    <option value="2"> Categoria 02</option>
+                    <option value="3"> Categoria 03</option>
+                    <option value="4"> Categoria 04</option>
+                    <option value="5"> Categoria 05</option>
+                </select>
+            </label>
+
+
+            <label>
+                <!-- Marcar e desmarcar -->
+                <input type="checkbox" />
+                Eu declaro que li e aceito os <a href="paginas/termos.html" target="_blank">termos de uso </a>. <br/>
+            </label>
+            
+             <!-- cria um botão clicavel -->
+            <button> Fazer Cadastro </button>           
+            
+        </form>
+    </body>
+
+</html>

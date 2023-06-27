@@ -1,0 +1,33 @@
+#titulo {
+
+    background-color:rgb(75, 0, 130);
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+.texto {
+
+    background-color: rgb(65, 180, 50);
+    color: whitesmoke;
+}
+
+p { 
+
+    background-color: crimson;
+}
+
+div {
+
+    background-color: red ;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    border:10px groove greenyellow;
+}
+
+img {
+
+    border: 5px solid red;
+    border-radius: 50px;
+    overflow: hidden;
+}

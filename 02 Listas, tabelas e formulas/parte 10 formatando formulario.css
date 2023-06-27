@@ -1,0 +1,64 @@
+* {
+    /*indica que o tamanho pixels será a soma do conteúdo com a borda e o padding*/
+    box-sizing: border-box;
+}
+
+body {
+    /*define a margem de todo conteudo na página*/
+    margin: 50px;
+    /*cor da fonte*/
+    color: orangered;
+    /*alterar a cor do plano de fundo*/
+    background-color: black;
+}
+
+h1 {
+    /*tamanho da fonte*/
+    font-size: 40px;
+}
+
+h2 {
+    /*tamanho da fonte*/
+    font-size: 20px;
+}
+
+h3 {
+    /*tamanho da fonte*/
+    font-size: 12px;
+    /*determina a largura da área de conteúdo*/
+    width: 800px;
+}
+
+a {
+   /*cor da fonte*/
+   color: lime; 
+}
+
+label {
+     /*coloca um item abaixo do outro por padrão*/
+    display: block;
+     /*define a margem de todo conteudo*/
+    margin: 20px;
+}
+
+button {
+    /*coloca um item abaixo do outro por padrão*/
+    display: block;
+    /*define a margem inferior de um elemento*/
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    /*utilizada para adicionar espaço entre o conteúdo de um elemento e suas bordas*/
+    padding: 10px;
+    /*determina a largura da área de conteúdo*/
+    width: 500px;
+    /*tamanho da fonte*/
+    font-size:15px;
+    /*define tamanho, formato e cor da borda*/
+    border: 1px groove oldlace;
+    /*utilizada para criar um contorno ao redor de um elemento*/
+    outline: 0px;
+    /*define a margem superior de um elemento*/
+    margin-top: 5px;
+}
